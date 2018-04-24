@@ -37,7 +37,7 @@ public class FirstTest {
         driver.findElement(By.id("search_query_top")).click();
         driver.findElement(By.id("search_query_top")).sendKeys("dress");
         driver.findElement(By.id("search_query_top")).submit();
-        Assert.assertThat(driver.findElement(By.xpath("//*[@id=\"center_column\"]/ul/li[2]/div/div[2]/h5/a")).getText(),containsString("dress"));
+        Assert.assertThat(driver.findElement(By.xpath("//*[@id=\"center_column\"]/ul/li[2]/div/div[2]/h5/a")).getText(),containsString("Printed Dress"));
 
 
     }
